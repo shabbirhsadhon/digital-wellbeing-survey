@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated charts
+reports/
+
+# OS / editors
+.DS_Store
+.vscode/

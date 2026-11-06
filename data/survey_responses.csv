@@ -1,0 +1,241 @@
+respondent_id,age,gender,university,daily_screen_hours,social_media_hours,sleep_hours,study_hours,cgpa,stress_level,feels_addicted,sleep_quality,uses_phone_before_bed,physical_activity_days
+R001,19,Male,UIU,6.2,2.8,7.1,2.6,3.88,3,No,Fair,Yes,3
+R002,24,Female,RU,2.3,1.0,7.2,2.4,3.35,1,No,Fair,Yes,0
+R003,24,Female,JU,6.6,3.3,6.5,4.0,3.54,3,No,Fair,No,4
+R004,22,Male,NSU,5.5,3.5,7.3,3.9,3.68,1,No,Fair,Yes,0
+R005,23,Female,JU,4.5,3.1,6.2,3.1,2.83,4,No,Fair,Yes,4
+R006,21,Female,RU,8.2,4.9,6.6,2.4,2.95,3,Yes,Fair,No,3
+R007,21,Male,NSU,4.8,3.0,5.7,3.8,3.46,3,No,Poor,Yes,6
+R008,22,Male,CU,8.1,5.3,6.4,5.7,3.61,3,Yes,Fair,No,2
+R009,19,Male,CU,5.5,2.0,7.5,4.6,3.65,4,No,Good,Yes,7
+R010,22,Male,DU,4.3,2.3,10.0,4.5,3.95,2,No,Good,Yes,2
+R011,22,Female,BUET,1.5,1.0,9.4,6.2,3.91,1,No,Good,Yes,2
+R012,18,Female,JU,10.9,5.9,6.2,3.3,3.43,3,No,Fair,No,4
+R013,20,Female,RU,6.6,3.6,8.0,5.7,3.57,4,No,Good,No,2
+R014,21,Male,CU,1.5,0.7,9.4,6.6,3.6,1,No,Good,No,5
+R015,21,Female,DU,4.0,1.6,8.4,3.5,3.71,2,No,Good,Yes,0
+R016,25,Female,BUET,5.7,2.5,9.2,4.6,3.56,2,No,Good,Yes,7
+R017,18,Female,UIU,6.6,3.3,8.4,3.0,3.58,4,No,Good,Yes,5
+R018,20,Male,RU,8.3,5.2,7.3,3.5,3.04,4,Yes,Fair,No,7
+R019,21,Female,CU,8.0,3.1,4.8,4.4,2.88,3,Yes,Poor,Yes,6
+R020,25,Male,CU,6.6,4.4,7.2,6.2,2.68,3,No,Fair,Yes,7
+R021,25,Female,UIU,7.5,5.2,7.7,3.8,3.05,2,No,Good,Yes,2
+R022,21,Female,DU,5.7,2.1,9.4,6.2,2.65,4,No,Good,Yes,5
+R023,23,Female,UIU,7.9,4.7,6.5,3.2,3.59,3,Yes,Fair,No,1
+R024,21,Male,BRAC University,4.9,1.8,7.8,3.0,4.0,3,No,Good,Yes,4
+R025,20,Male,DU,1.5,0.9,6.5,4.1,3.53,3,No,Fair,No,2
+R026,22,Male,BRAC University,9.6,4.3,4.9,5.6,3.32,3,No,Poor,No,1
+R027,25,Male,UIU,3.8,1.4,6.4,5.3,3.57,2,No,Fair,Yes,2
+R028,22,Male,UIU,6.3,3.4,8.0,4.7,3.42,2,No,Good,No,3
+R029,21,Female,BUET,5.1,2.4,6.1,6.7,3.09,1,No,Fair,No,0
+R030,21,Male,BUET,5.9,2.4,9.1,5.3,2.88,2,No,Good,Yes,1
+R031,21,Female,UIU,6.0,3.1,7.5,2.4,4.0,4,No,Good,Yes,6
+R032,24,Male,UIU,9.8,4.6,8.2,5.6,3.08,2,Yes,Good,No,2
+R033,19,Male,NSU,1.5,0.5,7.1,5.1,3.32,1,No,Fair,Yes,6
+R034,21,Male,CU,4.2,1.5,9.1,1.9,3.28,2,No,Good,Yes,5
+R035,22,Female,NSU,4.2,1.7,6.7,3.7,3.15,3,No,Fair,Yes,6
+R036,18,Male,BRAC University,4.8,2.8,8.9,6.0,3.23,2,No,Good,Yes,5
+R037,19,Male,JU,4.2,1.8,8.1,4.6,3.52,1,No,Good,Yes,3
+R038,25,Female,RU,5.2,3.0,7.7,4.4,3.61,3,No,Good,Yes,3
+R039,19,Male,NSU,6.1,3.0,6.3,6.4,3.74,4,No,Fair,Yes,7
+R040,23,Male,CU,3.8,1.4,8.0,5.1,2.8,4,No,Good,No,7
+R041,25,Female,BRAC University,9.4,4.9,5.3,1.9,3.45,4,Yes,Poor,Yes,3
+R042,20,Female,DU,3.6,1.6,7.4,5.3,3.58,3,No,Fair,Yes,5
+R043,24,Male,UIU,4.3,1.8,7.5,2.3,3.75,1,No,Good,No,4
+R044,21,Male,NSU,4.8,2.9,9.3,5.5,2.86,1,No,Good,Yes,7
+R045,18,Male,UIU,8.5,5.0,6.8,2.9,3.34,3,Yes,Fair,Yes,7
+R046,24,Male,CU,6.7,2.8,7.1,4.4,2.99,4,No,Fair,Yes,1
+R047,18,Female,NSU,2.9,1.1,8.5,8.0,3.37,3,No,Good,Yes,0
+R048,25,Male,JU,8.8,5.0,6.6,6.1,3.85,5,Yes,Fair,Yes,1
+R049,24,Male,NSU,6.7,3.1,6.5,1.1,2.91,1,No,Fair,Yes,3
+R050,18,Male,CU,4.3,1.7,8.1,3.9,3.24,1,No,Good,Yes,1
+R051,25,Female,CU,4.5,2.9,7.7,6.4,3.23,3,No,Good,Yes,4
+R052,22,Male,NSU,5.7,3.2,9.1,4.7,2.69,2,No,Good,No,1
+R053,23,Female,RU,6.1,3.7,8.5,3.2,3.1,2,No,Good,Yes,4
+R054,21,Female,NSU,8.7,4.1,7.8,3.9,3.2,3,Yes,Good,Yes,3
+R055,22,Male,RU,5.3,2.8,6.1,4.6,3.2,3,No,Fair,Yes,5
+R056,22,Female,DU,9.8,4.9,6.3,2.4,3.09,3,Yes,Fair,Yes,2
+R057,21,Male,NSU,7.8,3.5,8.5,0.5,2.93,2,Yes,Good,Yes,2
+R058,25,Female,UIU,3.0,1.3,9.6,3.8,3.38,2,No,Good,Yes,7
+R059,25,Female,UIU,4.5,3.1,7.9,4.7,4.0,2,No,Good,Yes,4
+R060,21,Male,RU,7.0,2.7,7.1,4.9,2.87,4,No,Fair,Yes,6
+R061,19,Female,NSU,5.5,3.1,8.9,4.4,2.49,3,No,Good,Yes,1
+R062,22,Male,RU,8.0,3.2,5.4,3.8,3.15,4,Yes,Poor,Yes,4
+R063,22,Female,DU,7.2,4.2,5.5,1.8,3.12,4,Yes,Poor,Yes,4
+R064,25,Male,DU,5.6,2.8,6.5,4.8,3.11,3,No,Fair,Yes,6
+R065,18,Male,UIU,6.2,2.2,5.8,5.3,3.83,3,No,Poor,Yes,2
+R066,25,Female,RU,4.3,2.2,6.4,6.1,3.58,1,No,Fair,Yes,5
+R067,18,Male,DU,6.1,2.5,7.8,3.3,3.53,2,No,Good,Yes,5
+R068,25,Male,UIU,4.6,1.8,8.0,4.2,3.38,1,No,Good,Yes,5
+R069,25,Female,UIU,4.6,2.3,6.8,5.1,3.46,3,No,Fair,No,3
+R070,19,Male,DU,7.8,4.7,6.8,4.4,3.04,4,Yes,Fair,Yes,4
+R071,20,Female,BRAC University,4.7,3.0,7.7,2.9,3.34,3,No,Good,Yes,6
+R072,25,Female,RU,5.8,2.7,7.6,4.1,3.89,2,No,Good,Yes,5
+R073,24,Female,CU,4.7,2.3,9.3,5.4,3.08,4,No,Good,Yes,7
+R074,20,Male,UIU,6.3,3.8,7.7,1.6,2.97,2,No,Good,Yes,5
+R075,20,Female,RU,9.6,4.8,4.7,3.3,3.11,3,No,Poor,Yes,6
+R076,23,Male,UIU,4.3,2.5,9.1,3.2,3.61,1,No,Good,Yes,3
+R077,19,Male,BUET,3.1,2.2,6.3,6.2,3.06,2,No,Fair,Yes,0
+R078,24,Female,BUET,8.3,3.0,7.0,4.3,3.09,3,Yes,Fair,Yes,6
+R079,18,Male,BRAC University,5.3,3.5,7.0,4.2,3.65,3,No,Fair,Yes,2
+R080,22,Male,BRAC University,8.2,3.1,9.8,7.4,2.96,3,Yes,Good,Yes,7
+R081,24,Male,UIU,8.2,3.9,7.4,6.5,3.75,3,Yes,Fair,Yes,0
+R082,21,Male,NSU,7.1,4.7,7.0,2.4,3.77,1,Yes,Fair,Yes,2
+R083,19,Male,JU,3.2,1.8,6.4,2.4,3.78,2,No,Fair,Yes,2
+R084,22,Female,BRAC University,4.8,2.0,8.2,5.6,3.09,1,No,Good,No,7
+R085,21,Male,JU,8.3,5.4,6.5,6.0,2.86,4,Yes,Fair,Yes,4
+R086,23,Female,NSU,8.2,4.4,5.1,2.0,3.01,4,Yes,Poor,Yes,5
+R087,20,Female,UIU,7.8,2.9,6.4,3.3,2.56,4,Yes,Fair,Yes,1
+R088,24,Female,CU,8.6,3.7,5.6,6.3,2.63,3,Yes,Poor,No,6
+R089,23,Male,UIU,8.2,4.9,6.4,3.9,3.6,4,Yes,Fair,Yes,1
+R090,18,Female,JU,8.6,5.9,6.8,5.8,3.33,3,Yes,Fair,Yes,3
+R091,18,Male,BUET,9.9,4.2,7.0,3.1,3.85,4,No,Fair,Yes,2
+R092,23,Female,BUET,7.6,3.0,7.3,5.9,2.87,3,Yes,Fair,Yes,6
+R093,18,Male,RU,2.9,1.5,7.9,5.9,3.03,2,No,Good,Yes,0
+R094,25,Female,DU,8.1,3.0,5.6,2.2,3.08,4,Yes,Poor,Yes,2
+R095,24,Female,DU,6.0,3.3,8.9,2.5,4.0,1,No,Good,No,3
+R096,19,Male,CU,6.0,3.0,8.2,2.7,3.49,2,No,Good,Yes,4
+R097,23,Female,UIU,5.6,3.8,7.9,4.7,3.61,4,No,Good,Yes,5
+R098,18,Male,BRAC University,7.0,4.1,5.2,3.4,3.62,4,Yes,Poor,Yes,3
+R099,21,Male,UIU,7.9,5.1,7.9,4.7,3.6,3,Yes,Good,Yes,4
+R100,20,Female,CU,7.7,2.8,6.6,3.2,3.54,5,Yes,Fair,Yes,0
+R101,19,Female,BUET,8.8,4.2,7.3,3.2,3.27,3,Yes,Fair,Yes,1
+R102,19,Male,CU,8.3,3.7,6.0,4.2,2.97,3,Yes,Fair,Yes,7
+R103,20,Male,BRAC University,4.6,2.0,7.6,5.3,3.36,3,No,Good,Yes,0
+R104,23,Female,CU,11.6,6.1,5.2,3.0,2.85,5,No,Poor,Yes,0
+R105,24,Female,JU,5.6,2.6,7.6,3.3,3.49,2,No,Good,Yes,7
+R106,24,Female,CU,5.1,3.3,8.0,3.3,3.5,2,No,Good,No,5
+R107,23,Female,NSU,7.2,2.7,8.9,4.8,2.95,2,Yes,Good,Yes,2
+R108,25,Male,RU,10.1,5.7,6.3,5.8,3.42,3,Yes,Fair,No,5
+R109,18,Male,DU,8.5,3.4,5.5,3.3,3.38,5,Yes,Poor,Yes,0
+R110,24,Male,UIU,8.2,3.9,6.4,3.7,3.38,5,Yes,Fair,Yes,3
+R111,19,Female,UIU,5.4,2.2,8.6,5.3,3.41,3,No,Good,Yes,7
+R112,24,Male,JU,5.3,3.7,6.0,6.7,2.83,2,No,Fair,Yes,0
+R113,20,Male,DU,7.3,2.7,5.4,3.4,3.56,4,Yes,Poor,Yes,5
+R114,19,Male,CU,9.9,4.5,5.3,5.2,3.54,3,Yes,Poor,Yes,2
+R115,23,Female,JU,4.5,2.7,5.9,3.3,2.99,2,No,Poor,Yes,3
+R116,22,Female,UIU,4.7,2.2,7.8,4.3,3.58,2,No,Good,Yes,2
+R117,18,Male,JU,5.5,2.3,7.1,6.1,2.88,2,No,Fair,Yes,3
+R118,21,Male,RU,4.5,3.1,6.3,3.2,3.43,1,No,Fair,No,3
+R119,20,Female,BUET,2.9,2.0,10.0,3.2,3.51,1,No,Good,No,0
+R120,19,Male,DU,8.3,4.8,7.7,5.5,3.77,3,No,Good,Yes,2
+R121,24,Male,NSU,7.0,4.7,6.6,5.3,2.62,4,Yes,Fair,Yes,3
+R122,20,Female,BRAC University,5.5,2.0,9.4,2.0,2.98,2,No,Good,No,7
+R123,20,Male,DU,6.1,3.6,6.7,5.1,3.33,3,No,Fair,Yes,3
+R124,19,Male,UIU,7.3,3.3,8.1,2.3,3.37,4,Yes,Good,Yes,2
+R125,23,Female,UIU,6.5,3.1,7.3,3.1,3.2,2,No,Fair,Yes,7
+R126,19,Male,NSU,4.2,1.5,7.0,2.9,3.39,3,No,Fair,Yes,1
+R127,25,Male,BUET,7.0,3.3,5.3,4.3,3.4,4,No,Poor,Yes,7
+R128,22,Male,RU,5.2,1.9,8.1,3.3,3.58,4,No,Good,Yes,3
+R129,24,Male,CU,5.5,2.0,9.6,4.6,3.11,2,No,Good,Yes,2
+R130,24,Female,CU,4.3,2.3,5.3,4.0,2.76,2,No,Poor,Yes,2
+R131,25,Male,RU,4.6,1.7,7.5,3.0,3.12,2,No,Good,Yes,5
+R132,24,Male,BUET,5.1,2.9,6.2,3.7,3.39,3,No,Fair,No,2
+R133,18,Female,RU,8.4,4.2,5.3,2.8,3.41,4,No,Poor,Yes,1
+R134,19,Female,BUET,4.9,2.7,6.6,3.3,3.21,2,No,Fair,Yes,6
+R135,25,Female,DU,7.4,4.6,6.7,2.1,3.03,3,Yes,Fair,Yes,2
+R136,23,Male,DU,4.3,2.9,7.4,1.7,3.11,2,No,Fair,Yes,4
+R137,19,Female,BUET,9.8,5.9,4.9,4.0,2.95,5,Yes,Poor,Yes,5
+R138,19,Female,BRAC University,4.0,2.2,6.6,3.7,2.94,4,No,Fair,Yes,7
+R139,23,Female,BUET,2.8,1.8,7.9,3.5,3.87,4,No,Good,Yes,2
+R140,20,Female,JU,4.6,2.3,8.0,4.9,3.52,2,No,Good,No,3
+R141,20,Male,DU,3.5,2.3,10.0,3.2,3.2,3,No,Good,Yes,2
+R142,23,Female,UIU,4.4,2.5,7.2,2.0,2.85,2,No,Fair,Yes,4
+R143,22,Male,NSU,4.3,2.1,6.3,3.5,3.07,2,No,Fair,Yes,6
+R144,21,Male,BUET,5.2,2.4,7.9,4.8,2.98,3,No,Good,Yes,5
+R145,25,Female,BRAC University,6.1,4.2,5.1,2.8,3.56,4,No,Poor,Yes,2
+R146,20,Male,JU,5.8,2.2,7.1,3.4,3.13,4,No,Fair,Yes,2
+R147,21,Female,JU,3.9,2.0,7.9,6.1,3.47,2,No,Good,Yes,4
+R148,19,Male,BUET,5.6,2.9,8.6,4.5,2.91,2,No,Good,No,5
+R149,25,Male,DU,6.7,3.3,6.1,3.4,3.19,2,No,Fair,Yes,1
+R150,21,Male,UIU,6.2,3.0,7.6,3.1,3.86,2,No,Good,Yes,2
+R151,23,Female,CU,5.6,3.0,5.5,6.4,3.93,4,No,Poor,No,4
+R152,25,Female,JU,10.4,5.8,4.8,3.5,2.69,4,Yes,Poor,Yes,6
+R153,21,Female,RU,3.1,1.9,7.2,0.6,3.36,2,No,Fair,Yes,6
+R154,18,Male,JU,7.4,3.0,6.8,3.6,3.42,3,Yes,Fair,Yes,3
+R155,21,Male,RU,3.3,2.2,9.1,5.2,3.02,3,No,Good,Yes,5
+R156,22,Male,NSU,7.0,4.8,5.7,3.3,2.78,3,No,Poor,Yes,4
+R157,23,Male,BRAC University,7.4,3.4,9.9,3.5,3.5,3,Yes,Good,Yes,6
+R158,18,Male,DU,4.7,3.1,6.9,3.4,3.4,3,No,Fair,Yes,7
+R159,19,Female,NSU,4.5,1.9,6.2,3.2,3.13,3,No,Fair,Yes,3
+R160,20,Female,BUET,5.8,3.3,8.5,3.4,3.3,3,No,Good,Yes,7
+R161,21,Female,BUET,5.0,3.4,7.7,4.8,3.81,2,No,Good,Yes,2
+R162,22,Female,UIU,6.0,4.1,9.4,3.1,3.37,3,No,Good,Yes,1
+R163,25,Male,NSU,8.3,4.2,6.3,4.3,2.9,3,No,Fair,Yes,7
+R164,21,Female,CU,5.7,3.3,7.4,5.2,3.18,3,No,Fair,No,5
+R165,21,Male,BRAC University,9.3,3.9,7.3,3.6,3.43,4,No,Fair,Yes,0
+R166,20,Male,BRAC University,8.2,3.6,6.2,2.3,3.04,4,Yes,Fair,Yes,4
+R167,25,Female,NSU,5.5,3.8,8.1,5.6,3.39,2,No,Good,Yes,1
+R168,21,Female,BUET,6.4,3.4,6.2,3.7,3.45,3,No,Fair,Yes,7
+R169,24,Male,UIU,7.6,4.2,7.4,4.4,3.48,4,Yes,Fair,Yes,4
+R170,18,Male,JU,4.2,2.5,6.2,2.4,3.38,3,No,Fair,Yes,0
+R171,24,Male,CU,7.3,4.9,6.8,4.2,3.34,4,Yes,Fair,No,6
+R172,23,Female,BUET,2.8,1.3,7.6,4.0,2.95,1,No,Good,No,6
+R173,24,Male,NSU,3.0,1.3,7.9,3.9,3.44,2,No,Good,Yes,5
+R174,24,Female,NSU,9.6,3.9,7.2,3.2,3.18,5,Yes,Fair,Yes,0
+R175,18,Female,BRAC University,3.4,2.2,8.6,2.7,3.53,2,No,Good,Yes,5
+R176,21,Male,BRAC University,7.5,4.1,7.2,6.9,3.32,1,Yes,Fair,Yes,2
+R177,23,Male,CU,4.9,2.6,6.8,3.0,3.22,5,No,Fair,Yes,6
+R178,20,Male,UIU,3.1,1.3,7.4,7.4,3.54,2,No,Fair,Yes,6
+R179,19,Female,UIU,5.4,2.3,7.3,6.7,3.83,3,No,Fair,Yes,0
+R180,25,Female,JU,4.5,3.0,8.5,2.4,3.31,4,No,Good,Yes,0
+R181,21,Male,NSU,6.8,4.1,7.8,5.9,2.7,3,No,Good,Yes,4
+R182,25,Male,DU,4.8,2.3,6.7,6.0,3.34,2,No,Fair,Yes,7
+R183,18,Male,CU,6.6,2.8,6.2,5.6,3.39,3,No,Fair,Yes,3
+R184,23,Male,RU,3.8,1.8,6.4,4.4,2.9,3,No,Fair,No,7
+R185,18,Female,DU,3.0,1.4,8.6,5.8,3.78,3,No,Good,No,0
+R186,18,Female,RU,10.7,6.6,4.2,5.7,3.2,5,Yes,Poor,Yes,7
+R187,22,Female,CU,6.3,3.4,7.1,3.7,3.34,3,No,Fair,Yes,2
+R188,23,Male,CU,3.8,1.5,8.5,6.1,3.56,3,No,Good,Yes,6
+R189,18,Female,CU,4.9,2.9,7.9,8.3,3.99,2,No,Good,Yes,7
+R190,23,Female,UIU,9.8,3.6,6.9,3.5,2.79,4,Yes,Fair,No,7
+R191,23,Female,NSU,5.8,3.4,9.9,3.6,3.76,3,No,Good,Yes,6
+R192,23,Male,BUET,5.3,3.6,7.1,3.0,2.73,4,No,Fair,Yes,1
+R193,24,Male,UIU,1.5,0.6,8.6,3.4,3.76,1,No,Good,Yes,7
+R194,24,Female,BRAC University,9.7,5.1,4.7,4.5,2.69,5,No,Poor,Yes,1
+R195,22,Male,JU,6.3,3.9,8.3,3.6,3.59,4,No,Good,Yes,1
+R196,18,Female,JU,7.2,2.9,7.5,3.4,2.93,4,Yes,Good,Yes,5
+R197,21,Female,CU,6.7,3.3,7.0,0.5,2.74,3,No,Fair,Yes,4
+R198,25,Female,JU,4.0,1.8,7.5,5.0,3.06,2,No,Good,Yes,3
+R199,24,Male,RU,6.0,3.4,6.1,5.6,3.37,2,No,Fair,Yes,2
+R200,24,Male,BRAC University,6.6,3.0,5.8,4.1,3.08,2,No,Poor,Yes,7
+R201,21,Female,UIU,10.3,4.8,5.7,1.1,3.75,4,No,Poor,Yes,3
+R202,24,Male,BUET,10.3,5.2,5.7,1.0,3.41,5,Yes,Poor,Yes,2
+R203,24,Female,JU,5.7,2.1,5.5,2.7,3.31,4,No,Poor,Yes,1
+R204,24,Male,CU,8.0,3.1,6.8,5.6,3.48,5,Yes,Fair,Yes,3
+R205,20,Male,UIU,3.8,2.1,7.9,2.4,3.23,1,No,Good,Yes,4
+R206,22,Male,RU,8.9,4.4,7.1,3.3,3.38,4,No,Fair,Yes,5
+R207,23,Female,BUET,4.2,2.5,8.0,4.6,3.66,2,No,Good,No,3
+R208,24,Female,BUET,5.5,2.9,6.5,4.9,2.99,2,No,Fair,Yes,6
+R209,22,Female,DU,3.6,2.4,9.1,5.5,3.53,1,No,Good,Yes,2
+R210,23,Male,CU,6.5,3.1,7.4,2.5,3.11,3,No,Fair,Yes,5
+R211,20,Male,DU,5.0,2.1,8.6,6.0,2.8,2,No,Good,Yes,1
+R212,24,Male,BUET,5.1,2.1,7.1,4.6,3.19,1,No,Fair,Yes,2
+R213,18,Male,BUET,4.1,1.6,7.4,5.7,3.75,2,No,Fair,Yes,6
+R214,25,Male,BUET,7.2,4.9,5.7,2.5,3.13,3,Yes,Poor,Yes,3
+R215,19,Female,BRAC University,6.0,3.2,8.2,4.0,3.66,3,No,Good,Yes,5
+R216,24,Female,NSU,2.8,1.5,8.3,4.9,3.22,1,No,Good,Yes,0
+R217,23,Male,BUET,4.6,2.9,8.0,4.5,3.79,1,No,Good,Yes,3
+R218,20,Male,BRAC University,4.9,3.1,8.1,3.8,2.9,1,No,Good,Yes,4
+R219,18,Male,BUET,9.0,6.0,6.1,3.6,3.03,4,Yes,Fair,Yes,2
+R220,22,Male,CU,4.2,2.5,8.7,2.8,3.21,1,No,Good,Yes,1
+R221,19,Male,JU,3.5,2.1,9.1,2.5,3.15,3,No,Good,No,6
+R222,23,Female,RU,6.7,2.9,6.5,6.8,3.22,3,No,Fair,Yes,0
+R223,24,Female,BUET,9.5,6.1,6.8,4.5,3.26,5,No,Fair,Yes,4
+R224,18,Male,BRAC University,8.5,3.3,6.3,1.8,2.96,4,Yes,Fair,Yes,6
+R225,18,Female,JU,4.6,1.6,6.3,4.6,3.4,2,No,Fair,Yes,6
+R226,19,Male,JU,9.8,5.8,5.5,5.0,3.7,4,No,Poor,Yes,2
+R227,21,Female,CU,4.4,1.6,6.5,5.0,3.2,1,No,Fair,Yes,7
+R228,24,Male,CU,8.3,5.4,7.1,1.7,3.24,4,Yes,Fair,Yes,4
+R229,22,Female,NSU,5.5,3.1,6.8,4.5,3.06,3,No,Fair,Yes,4
+R230,21,Male,DU,6.3,3.6,7.7,5.5,3.33,1,No,Good,Yes,0
+R231,25,Female,UIU,11.6,4.6,5.6,1.7,2.75,5,Yes,Poor,Yes,3
+R232,24,Male,CU,9.0,3.3,8.3,3.5,2.71,4,Yes,Good,Yes,2
+R233,19,Male,CU,6.2,3.3,8.2,2.6,3.92,3,No,Good,Yes,3
+R234,22,Female,DU,6.0,2.2,8.3,4.7,2.86,3,No,Good,Yes,2
+R235,20,Male,DU,6.1,4.2,6.7,3.9,3.23,1,No,Fair,Yes,0
+R236,19,Male,RU,5.2,2.4,6.4,8.3,3.27,3,No,Fair,Yes,0
+R237,21,Female,UIU,3.7,1.8,8.0,2.3,3.58,2,No,Good,No,0
+R238,18,Male,NSU,4.9,2.1,6.6,7.0,3.84,3,No,Fair,Yes,6
+R239,21,Female,CU,8.2,5.2,6.2,3.5,3.16,3,Yes,Fair,Yes,4
+R240,22,Male,NSU,5.9,3.7,7.2,4.5,3.0,3,No,Fair,Yes,7
