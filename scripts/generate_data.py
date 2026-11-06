@@ -31,6 +31,10 @@ def generate(path: str | Path) -> Path:
         stress = int(_clamp(round(rng.gauss(3.0, 1.0) + (screen - 6.5) * 0.3), 1, 5))
         cgpa = round(_clamp(rng.gauss(3.3, 0.35) - (screen - 6.5) * 0.04, 2.0, 4.0), 2)
         study = round(_clamp(rng.gauss(4.0, 1.5) - (screen - 6.5) * 0.15, 0.5, 10.0), 1)
+        # Dhaka reality: long commutes in traffic eat into sleep and raise stress.
+        commute = round(_clamp(rng.gauss(1.8, 0.9), 0.2, 4.5), 1)
+        sleep = round(_clamp(sleep - (commute - 1.8) * 0.3, 3.5, 10.0), 1)
+        stress = int(_clamp(stress + (1 if commute > 3 else 0), 1, 5))
         rows.append(
             {
                 "respondent_id": f"R{i:03d}",
@@ -49,6 +53,8 @@ def generate(path: str | Path) -> Path:
                 ),
                 "uses_phone_before_bed": "Yes" if rng.random() < 0.82 else "No",
                 "physical_activity_days": rng.randint(0, 7),
+                "commute_hours": commute,
+                "part_time_job": "Yes" if rng.random() < 0.3 else "No",
             }
         )
 

@@ -21,6 +21,8 @@ Each response becomes one row in `data/survey_responses.csv`.
 | 11 | How is your sleep quality? | Multiple choice | Poor / Fair / Good |
 | 12 | Do you use your phone in bed before sleeping? | Yes / No | Yes / No |
 | 13 | How many days per week are you physically active? | Number | 0–7 |
+| 14 | How long is your daily commute to campus (Dhaka traffic included)? | Number | hours, e.g. 2.0 |
+| 15 | Do you have a part-time job or tuition work? | Yes / No | Yes / No |
 
 ## Ethics note
 

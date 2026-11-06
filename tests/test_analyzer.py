@@ -60,7 +60,7 @@ class TestAnalyzer(unittest.TestCase):
             out = build_html_report(self.responses, Path(tmp) / "report.html")
             html = out.read_text(encoding="utf-8")
             self.assertIn("Digital Wellbeing Survey", html)
-            self.assertIn("6.09", html)  # avg screen time from the sample data
+            self.assertIn("6.47", html)  # avg screen time from the sample data
             self.assertNotIn("<script", html.lower(), "report must not use JavaScript")
 
 

@@ -14,6 +14,7 @@ from pathlib import Path
 
 from .analyzer import correlations, describe, load_responses, screen_time_groups
 from .charts import group_comparison, screen_vs_sleep, stress_distribution
+from .model import save_model, train_model
 from .report_html import build_html_report
 
 
@@ -54,6 +55,20 @@ def cmd_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_train(args: argparse.Namespace) -> int:
+    responses = load_responses(args.csv)
+    result = train_model(responses)
+    print(f"Test accuracy: {result['accuracy']:.1%}")
+    print("Most important features:")
+    for name, value in result["importances"].items():
+        print(f"  {name}: {value}")
+    print(result["report"])
+    if args.save:
+        path = save_model(result["model"], args.save)
+        print(f"Saved model: {path}")
+    return 0
+
+
 def cmd_html_report(args: argparse.Namespace) -> int:
     responses = load_responses(args.csv)
     path = build_html_report(responses, args.out)
@@ -71,6 +86,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("csv", help="Path to the survey responses CSV")
     p.add_argument("--charts", default=None, help="Folder to save charts into")
     p.set_defaults(func=cmd_report)
+    p = sub.add_parser("train", help="Train the stress-risk prediction model")
+    p.add_argument("csv", help="Path to the survey responses CSV")
+    p.add_argument("--save", default=None, help="Save the trained model to this file")
+    p.set_defaults(func=cmd_train)
+
     p = sub.add_parser("html-report", help="Build a self-contained HTML report (no JavaScript)")
     p.add_argument("csv", help="Path to the survey responses CSV")
     p.add_argument("--out", default="reports/report.html", help="Output HTML file")

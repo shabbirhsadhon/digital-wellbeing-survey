@@ -41,6 +41,8 @@ class Response:
     sleep_quality: str
     uses_phone_before_bed: str
     physical_activity_days: int
+    commute_hours: float
+    part_time_job: str
 
 
 def load_responses(path: str | Path) -> list[Response]:
@@ -64,6 +66,8 @@ def load_responses(path: str | Path) -> list[Response]:
                     sleep_quality=row["sleep_quality"],
                     uses_phone_before_bed=row["uses_phone_before_bed"],
                     physical_activity_days=int(row["physical_activity_days"]),
+                    commute_hours=float(row["commute_hours"]),
+                    part_time_job=row["part_time_job"],
                 )
             )
     return rows
@@ -92,6 +96,10 @@ def describe(responses: list[Response]) -> dict:
         "avg_study_hours": mean([r.study_hours for r in responses]),
         "avg_cgpa": mean([r.cgpa for r in responses]),
         "avg_stress": mean([float(r.stress_level) for r in responses]),
+        "avg_commute_hours": mean([r.commute_hours for r in responses]),
+        "pct_part_time_job": round(
+            100 * sum(r.part_time_job == "Yes" for r in responses) / len(responses), 1
+        ),
         "pct_addicted": round(
             100 * sum(r.feels_addicted == "Yes" for r in responses) / len(responses), 1
         ),
@@ -135,6 +143,10 @@ def correlations(responses: list[Response]) -> dict[str, float]:
         "screen_vs_cgpa": correlation(screen, [r.cgpa for r in responses]),
         "screen_vs_study": correlation(screen, [r.study_hours for r in responses]),
         "sleep_vs_cgpa": correlation([r.sleep_hours for r in responses], [r.cgpa for r in responses]),
+        "commute_vs_stress": correlation(
+            [r.commute_hours for r in responses],
+            [float(r.stress_level) for r in responses],
+        ),
     }
 
 

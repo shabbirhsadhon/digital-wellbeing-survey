@@ -7,6 +7,9 @@ venv/
 # Generated charts
 reports/
 
+# Trained models
+models/
+
 # OS / editors
 .DS_Store
 .vscode/
