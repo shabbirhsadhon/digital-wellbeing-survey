@@ -1,4 +1,4 @@
-# 📋 Survey Questionnaire — Screen Time, Sleep & Student Life
+# Survey Questionnaire - Screen Time, Sleep & Student Life
 
 **Topic:** How screen time affects sleep, stress, and academic performance
 among Bangladeshi university students.
@@ -22,8 +22,8 @@ Each response becomes one row in `data/survey_responses.csv`.
 | 12 | Do you use your phone in bed before sleeping? | Yes / No | Yes / No |
 | 13 | How many days per week are you physically active? | Number | 0–7 |
 
-## ⚠️ Ethics note
+## Ethics note
 
-- Participation is voluntary and anonymous — no names, emails, or phone numbers.
+- Participation is voluntary and anonymous - no names, emails, or phone numbers.
 - The sample data in this repo is **synthetic** (generated, not real people).
 - Never publish identifiable answers from a real survey.

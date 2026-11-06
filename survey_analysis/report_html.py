@@ -1,4 +1,4 @@
-"""HTML report generator — Python analysis, HTML output, zero JavaScript.
+"""HTML report generator - Python analysis, HTML output, zero JavaScript.
 
 Builds a single self-contained ``report.html``: findings, tables and
 charts embedded as images. Open it in any browser, no server needed.
@@ -68,14 +68,14 @@ def build_html_report(responses: list[Response], output: str | Path) -> Path:
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Digital Wellbeing Survey — Report</title>
+<title>Digital Wellbeing Survey Report</title>
 <style>{CSS}</style>
 </head>
 <body>
-<h1>📱 Digital Wellbeing Survey — Report</h1>
-<p>Screen time, sleep, stress &amp; student life — {stats['n']} university students surveyed.</p>
+<h1>Digital Wellbeing Survey - Report</h1>
+<p>Screen time, sleep, stress &amp; student life - {stats['n']} university students surveyed.</p>
 
-<h2>🔍 Key findings</h2>
+<h2>Key findings</h2>
 <table>
 <tr><th>Finding</th><th>Number</th></tr>
 <tr><td>Average daily screen time</td><td>{stats['avg_screen_hours']} hours</td></tr>
@@ -88,7 +88,7 @@ def build_html_report(responses: list[Response], output: str | Path) -> Path:
 </table>
 
 <div class="callout"><strong>The story in one line:</strong> more screen time goes
-with less sleep and much higher stress — heavy users sleep about 1.75 hours
+with less sleep and much higher stress - heavy users sleep about 1.75 hours
 less and report nearly double the stress of light users.</div>
 
 <h2>👥 By screen-time group</h2>

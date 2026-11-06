@@ -1,6 +1,6 @@
 """Generate the synthetic survey dataset.
 
-The data is SYNTHETIC — generated with a fixed seed so every run
+The data is SYNTHETIC - generated with a fixed seed so every run
 produces the same file. It is realistic (screen time correlates
 with less sleep and higher stress) but it is NOT real survey data.
 Real data would come from a Google Form export in the same format.

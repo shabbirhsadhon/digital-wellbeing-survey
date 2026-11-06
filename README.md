@@ -1,16 +1,16 @@
-# 📱 Digital Wellbeing Survey — Screen Time, Sleep & Student Life
+# Digital Wellbeing Survey - Screen Time, Sleep & Student Life
 
 **How does screen time affect sleep, stress, and grades among Bangladeshi
 university students?** This project answers that question with a real
 survey questionnaire, a dataset of 240 responses, and a full Python
-analysis — correlations, group comparisons, and charts.
+analysis - correlations, group comparisons, and charts.
 
-> ⚠️ The included dataset is **synthetic** (generated with a fixed seed).
-> It behaves like real survey data so the analysis is real — but it is
+> Note: The included dataset is **synthetic** (generated with a fixed seed).
+> It behaves like real survey data so the analysis is real - but it is
 > NOT real people. To run a real study, copy the questionnaire into a
 > Google Form and replace the CSV with your export.
 
-## 🔍 Key findings (from the 240-response sample)
+## Key findings (from the 240-response sample)
 
 | Finding | Number |
 | ------- | ------ |
@@ -37,10 +37,10 @@ analysis — correlations, group comparisons, and charts.
 | Screen time vs study hours | −0.161 |
 
 **The story in one line:** more screen time goes with less sleep and
-much higher stress — heavy users sleep ~1.75 hours less and report
+much higher stress - heavy users sleep ~1.75 hours less and report
 nearly double the stress of light users.
 
-## 🚀 Quick start
+## Quick start
 
 ```bash
 git clone https://github.com/shabbirhsadhon/digital-wellbeing-survey.git
@@ -56,14 +56,14 @@ HTML + CSS, **no JavaScript**) and open it in your browser:
 python -m survey_analysis html-report data/survey_responses.csv --out reports/report.html
 ```
 
-## 📋 The survey
+## The survey
 
-13 questions in [`survey/questionnaire.md`](survey/questionnaire.md) —
+13 questions in [`survey/questionnaire.md`](survey/questionnaire.md) -
 age, gender, university, screen time, social media hours, sleep,
 study hours, CGPA, stress (1–5), phone addiction, sleep quality,
 phone-before-bed, and physical activity.
 
-## 📂 Project structure
+## Project structure
 
 ```
 digital-wellbeing-survey/
@@ -84,22 +84,22 @@ digital-wellbeing-survey/
 └── README.md
 ```
 
-## 🧪 Run the tests
+## Run the tests
 
 ```bash
 python -m unittest -v
 ```
 
-## 🛠️ Tech stack
+## Tech stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-Python 3.10+ and Matplotlib only — the analysis itself uses the
+Python 3.10+ and Matplotlib only - the analysis itself uses the
 standard library, and the report is plain HTML + CSS with **no JavaScript**,
 so it is easy to read and learn from.
 
-## 📄 License
+## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).

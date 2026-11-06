@@ -2,7 +2,7 @@
 
 Works on the CSV produced by ``scripts/generate_data.py`` or on a
 real Google Form export with the same columns. Only the standard
-library is used here — no pandas needed.
+library is used here - no pandas needed.
 """
 
 from __future__ import annotations

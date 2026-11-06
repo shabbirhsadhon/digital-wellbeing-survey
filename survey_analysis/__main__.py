@@ -20,7 +20,7 @@ from .report_html import build_html_report
 def cmd_report(args: argparse.Namespace) -> int:
     responses = load_responses(args.csv)
     stats = describe(responses)
-    print(f"=== Digital Wellbeing Survey — {stats['n']} students ===\n")
+    print(f"=== Digital Wellbeing Survey - {stats['n']} students ===\n")
     print(f"Avg daily screen time : {stats['avg_screen_hours']} hours")
     print(f"Avg sleep             : {stats['avg_sleep_hours']} hours")
     print(f"Avg study time        : {stats['avg_study_hours']} hours")
